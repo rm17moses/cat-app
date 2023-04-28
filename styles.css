@@ -1,0 +1,73 @@
+@media screen and (max-width: 600px) {
+    body {
+      background-color: whitesmoke;
+    }
+  }
+
+  :root {
+    --primary-color: #ffffff;
+   }
+
+.mh{
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+    
+}
+
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ul {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+ol {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+legend, label, .p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body {
+    width: 100%;
+  background-color: #fff;
+}
+
+.link{
+    color: white;
+    opacity: unset;
+}
+
+a {
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+}
+.link:hover {
+    color: purple;
+}
+
+img {
+    width: 50%;
+    height: auto;
+}
+
+.sen {
+    background-color: orangered;
+    color: white;
+    width: 230px;
+}
+
+.p {
+    width: 100%;
+    background-color: orangered;
+    text-align: center;
+    color: white;
+    text-decoration: solid;
+}
+
