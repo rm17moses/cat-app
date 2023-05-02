@@ -1,17 +1,12 @@
-@media screen and (max-width: 600px) {
-    body {
-      background-color: whitesmoke;
-    }
-  }
-
-  :root {
-    --primary-color: #ffffff;
-   }
+body {
+color: white;
+background-color: #432371;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 
 .mh{
     font-family: Helvetica, sans-serif;
     text-align: center;
-    
 }
 
 h2 {
@@ -34,11 +29,6 @@ legend, label, .p {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-body {
-    width: 100%;
-  background-color: #fff;
-}
-
 .link{
     color: white;
     opacity: unset;
@@ -49,7 +39,7 @@ a {
     text-decoration: none;
 }
 .link:hover {
-    color: purple;
+    color: #f3f520;
 }
 
 img {
@@ -58,16 +48,84 @@ img {
 }
 
 .sen {
-    background-color: orangered;
+    background-color: #60696b;
     color: white;
-    width: 230px;
+    width: 350px;
 }
 
 .p {
-    width: 100%;
     background-color: orangered;
     text-align: center;
-    color: white;
-    text-decoration: solid;
+    border-radius: 0.5em;
+    margin: 0.2em;
+    padding: 0.2em;
+    border-radius: 1em;
+    border: 1px solid #f1faee;
+    flex: 1;
+    text-decoration: dotted;
 }
 
+.cat {
+    background-color: #660000;
+    margin: 0.5em;
+    padding: 1em;
+    border-radius: 1em;
+    border: 1px solid #f1faee;
+    flex: 1;
+}
+
+fieldset {
+    margin: 1em;
+    border: 0;
+}
+
+button {
+    padding: 1em;
+    border: 3px solid #ffffff;
+    border-radius: 1em;
+    background-color: #60696b;
+}
+
+input {
+    padding: 1em;
+    border-radius: 1em;
+    border
+}
+
+.img3 {
+    width: 300px;
+}
+
+.lastb {
+    text-align: center;
+}
+
+@media(max-width: 400px) {
+    body {
+        background-color: #FF9000;
+    }
+
+    .p {
+        background-color: #e36414;
+    }
+}
+
+@media(max-width: 800px) {
+    body {
+        background-color: #030528;
+    }
+
+    .p {
+        background-color: #ffb703;
+    }
+}
+
+@media(min-width: 1000px) {
+    body {
+        background-color: #432371;
+    }
+
+    .p {
+        background-color: orangered;
+    }
+}
