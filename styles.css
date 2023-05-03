@@ -9,49 +9,14 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
 }
 
-h2 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-h3 {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-ul {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
-ol {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
-legend, label, .p {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
-.link{
-    color: white;
-    opacity: unset;
-}
-
-a {
-    color: rgb(255, 0, 0);
-    text-decoration: none;
-}
 .link:hover {
     color: #f3f520;
 }
 
 img {
     width: 50%;
-    height: auto;
 }
 
-.sen {
-    background-color: #60696b;
-    color: white;
-    width: 350px;
-}
 
 .p {
     background-color: orangered;
@@ -89,7 +54,7 @@ button {
 input {
     padding: 1em;
     border-radius: 1em;
-    border
+    border:
 }
 
 .img3 {
@@ -100,17 +65,7 @@ input {
     text-align: center;
 }
 
-@media(max-width: 400px) {
-    body {
-        background-color: #FF9000;
-    }
-
-    .p {
-        background-color: #e36414;
-    }
-}
-
-@media(max-width: 800px) {
+@media(min-width: 800px) {
     body {
         background-color: #030528;
     }
@@ -118,14 +73,8 @@ input {
     .p {
         background-color: #ffb703;
     }
-}
 
-@media(min-width: 1000px) {
-    body {
-        background-color: #432371;
-    }
-
-    .p {
-        background-color: orangered;
+    .cats {
+        display: flex;
     }
 }
